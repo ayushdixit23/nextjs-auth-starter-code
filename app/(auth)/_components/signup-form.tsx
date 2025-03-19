@@ -129,7 +129,7 @@ export default function Signup() {
                     <div className=" max-h-[300px] overflow-y-scroll p-1 flex flex-col gap-4">
                         <div className="flex flex-col items-center">
                             <div
-                                className="w-20 h-20 rounded-full border flex items-center justify-center"
+                                className="w-20 h-20 rounded-full border border-[#392e2e38] dark:border-white/80 flex items-center justify-center"
                                 onClick={() => document.getElementById("imageInput")?.click()} // Trigger file input on div click
                             >
                                 {form.watch("image") ? (
